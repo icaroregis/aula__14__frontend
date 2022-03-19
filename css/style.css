@@ -1,0 +1,208 @@
+.container__header {
+  background-color: #D1891C;
+}
+
+.container_header__child {
+  width: 1200px; 
+  height: 20px;   
+  margin: 0 auto; 
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;  
+}
+
+.container__header__two {
+  background-color: #00669F;
+}
+
+.descontos {
+  margin-left: 22px;    
+}
+
+.container__header__two__child {
+  background-color: #00669F;
+  height: 60px;
+  width: 1200px; 
+  margin: 0 auto; 
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; 
+}
+
+.title__header__two {
+  color: #fff;
+  font-size: 30px; 
+  font-weight: 500;  
+  padding-left: 20px; 
+}
+
+
+.container-home {
+  margin: 87px auto;   
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  width: 1000px; 
+  flex-wrap: wrap; 
+}
+
+.cardHerois {
+  margin-right: 86px;  
+  margin-bottom: 40px; 
+}
+
+.cardHeroisTwo {
+  margin-bottom: 40px; 
+}
+
+.cardHeroisThree {
+  margin-right: 86px;  
+}
+
+
+.cardHeroisChildOne{
+  width: 374px;
+  height: 217.81px;  
+  background-color: red; 
+  border-top-left-radius: 20px; 
+  border-top-right-radius: 20px;
+  background: url("../assets/img/plano_de_fundo_batman.png");   
+}
+
+.cardHeroisChildOneI{
+  width: 374px;
+  height: 217.81px;  
+  background-color: red; 
+  border-top-left-radius: 20px; 
+  border-top-right-radius: 20px;
+  background: url("../assets/img/backgroun__mulher__maravilha.svg");    
+}
+
+.cardHeroisChildOneII{
+  width: 374px;
+  height: 217.81px;  
+  background-color: red; 
+  border-top-left-radius: 20px; 
+  border-top-right-radius: 20px;
+  background: url("../assets/img/background__superman.svg");     
+}
+
+.cardHeroisChildOneIII{ 
+  width: 374px;
+  height: 217.81px;  
+  background-color: red; 
+  border-top-left-radius: 20px; 
+  border-top-right-radius: 20px;
+  background: url("../assets/img/plano_de_fundo_arlequina.png");    
+}
+
+.cardHeroisChildThree { 
+  width: 374px;
+  height: 217.81px;  
+  background-color: red; 
+  border-top-left-radius: 20px; 
+  border-top-right-radius: 20px;
+  background: url("../assets/img/plano_de_fundo_arlequina.png");     
+}
+
+.cardHeroisChildTwo {
+  width: 374px;
+  height: 379.2px; 
+  background-color: #F3F3F3;   
+}
+
+.coracao {
+  width: 10%; 
+  margin-top: 20px;
+  margin-left: 20px;  
+}
+
+.containerCoracao {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; 
+}
+
+.circle {
+  position: relative; 
+  width: 138px;
+  height: 138px; 
+  border-radius: 50%;  
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto; 
+        
+}
+
+.containerHistory {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  padding-top: 100px;  
+  padding-left: 36px;
+  padding-right: 36px;  
+}
+
+.titleBatman {
+  margin-bottom: 30px;
+  font-size: 2.2rem;    
+}
+
+.textAboutBtaman { 
+  margin-bottom: 25px; 
+  text-align: center; 
+}
+
+.batman {
+  width: 100%;  
+  border-radius: 50%;  
+}
+
+.buttonBatman {
+  width: 145.34px;
+  height: 54.76px; 
+  color: white;
+  background-color: #00669F; 
+  cursor: pointer; 
+  border: none; 
+}
+
+.containerFooter { 
+  color: white; 
+  height: 51px;
+  background-color: #00669F;   
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; 
+  padding-left: 25px;   
+} 
+
+.LinkBat {
+  text-decoration: none; 
+  color: white;  
+} 
+
+.container__footer {
+  background-color: #00669F; 
+}
+
+.container__footer__child {
+  width: 1200px;
+  height: 80px; 
+  margin: 0 auto; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.title__footer {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.logo__footer {
+  position: absolute;   
+  right: 400px;  
+  width: 5%; 
+}
+ 
