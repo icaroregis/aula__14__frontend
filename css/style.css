@@ -278,9 +278,37 @@
 
   .buttonFloat {
     position: fixed; 
-    top: 620px;  
-    left: 330px;
+    top: 650px;  
+    left: 310px;
     z-index: 9999;       
+  }
+
+  .cardHeroisChildOne {
+    width: 360px; 
+  }
+
+  .cardHeroisChildOneI {
+    width: 360px;
+  }
+
+  .cardHeroisChildOneII {
+    width: 360px;
+  }
+
+  .cardHeroisChildOneIII {
+    width: 360px; 
+  }
+
+  .cardHeroisChildTwo {
+    width: 360px; 
+  }
+  
+  .cardHerois {
+    margin-left: 85px;  
+  }
+
+  .cardHeroisThree {
+    margin-left: 85px; 
   }
 } 
 
