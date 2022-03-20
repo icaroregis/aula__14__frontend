@@ -278,9 +278,10 @@
 
   .buttonFloat {
     position: fixed; 
-    top: 620px;    
-    left: 310px;
-    z-index: 9999;       
+    top: 620px;      
+    left: 310px; 
+    z-index: 9999;   
+    overflow: hidden;      
   }
 
   .cardHeroisChildOne {
