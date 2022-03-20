@@ -278,7 +278,7 @@
 
   .buttonFloat {
     position: fixed; 
-    top: 650px;  
+    top: 620px;    
     left: 310px;
     z-index: 9999;       
   }
