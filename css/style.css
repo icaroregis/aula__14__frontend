@@ -271,7 +271,7 @@
   }
 }
 
-@media(max-width: 531px) { 
+@media(max-width: 531px) {  
   .title__footer {
     font-size: 12px;  
   }
@@ -280,7 +280,7 @@
     position: fixed; 
     top: 620px;  
     left: 330px;
-    z-index: 9999;      
+    z-index: 9999;       
   }
 }
 
