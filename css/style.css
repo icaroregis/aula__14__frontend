@@ -190,25 +190,24 @@
   width: 1200px;
   height: 80px; 
   margin: 0 auto; 
-  display: flex; 
-  justify-content: center;
-  align-items: center;   
+  display: flex;     
+  align-items: center;  
+  justify-content: center;   
 }
 
 .title__footer {
   font-size: 1rem;
-  color: #fff;
-  margin-left: 50px; 
+  color: #fff;  
 }
 
 .logo__footer {
-  position: relative;   
-  right: -350px;  
-  width: 5%; 
+  width: 10%;    
+  position: absolute;    
+  margin-left: 500px;      
 }
 
 .buttonFloat {
-  position: relative; 
+  position: relative;  
   background-color: #00669F;  
   left: 390px;   
   top: 55px;     
@@ -220,4 +219,70 @@
   font-size: 30px;   
   cursor: pointer; 
 }
+
+@media(max-width: 1220px) { 
+  .container__footer__child {
+    width: 100%; 
+  }
+
+  .container_header__child {
+    width: 100%; 
+  }
+
+  .container__header__two__child {
+    width: 100%;  
+  }
+
+  .logo__footer {
+    margin-left: calc(80% - 40);          
+  }
+}
+
+@media(max-width: 1136px) { 
+  .logo__footer {
+    margin-left: 400px;      
+  }
+}
+
+@media(max-width: 1000px) {
+  .container-home {
+    width: 90%;   
+  }
+
+  .cardHerois {
+    margin-left: 90px; 
+  }
+
+  .cardHeroisThree {
+    margin-left: 90px; 
+    margin-bottom: 45px; 
+  }
+}
+
+@media(max-width: 910px) {
+  .logo__footer {
+    margin-left: 350px;      
+  }
+}
+
+@media(max-width: 810px) {
+  .logo__footer {
+    margin-left: 40%;         
+  }
+}
+
+@media(max-width: 531px) { 
+  .title__footer {
+    font-size: 12px;  
+  }
+
+  .buttonFloat {
+    position: fixed; 
+    top: 620px;  
+    left: 330px;
+    z-index: 9999;      
+  }
+}
+
+
  
